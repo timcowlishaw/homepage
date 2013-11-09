@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'LilGroteskBold';
+  src: url('http://openfontlibrary.org/assets/fonts/lil-grotesk/d8ea0c2332f24ebba382725992fcb38c/c1891ae6728ea19348d811b9ca68b5ad/LilGroteskBold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body,
+.pure-g [class *= "pure-u"],
+.pure-g-r [class *= "pure-u"] {
+    font-family: 'Linear', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #444;
+  }
+
+h1 {
+  margin: 0;
+  font-family: 'LilGroteskBold';
+  font-weight: normal;
+  font-style: normal;
+  color: #44cccc;
+  font-size: 3.2em;
+}
+
+h2 {
+  margin: 0;
+  font-family: 'LilGroteskBold';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+}
+
+body {
+  background-color: #ddd;
+}
+
+body > div {
+  margin: 0 auto;
+  width: 66%;
+}
+
+p, li {
+  line-height: 1.5em;
+  font-size: 1em;
+}
+
+a {
+  color: #44cccc;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #444;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0 0 0 1em;
+
+}
+
+ul li:before {
+  content: "\2013";
+  position: relative;
+  left: -0.5em;
+}
+
+ul li {
+  text-indent: -0.5em;
+  margin-bottom: 0.5em;
+}
+
+@media (min-width: 768px) {
+  div.text {
+    margin-right: 1em;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .text-column {
+    width: 66%;
+  }
+
+  .text-column.last {
+    margin-left: 33% ;
+  }
+
+  .text-column .text {
+    margin-right: 0;
+  }
+}
+
+img.face {
+  width: 100%;
+}
