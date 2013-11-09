@@ -31,6 +31,23 @@ h2 {
   font-size: 2em;
 }
 
+h3 {
+  text-transform: uppercase;
+  margin: 1em 0 1em 0;
+  font-family: 'LilGroteskBold';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.5em;
+}
+
+h4 {
+  margin: 0;
+  font-family: 'News Cycle';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1em;
+}
+
 body {
   background-color: #ddd;
 }
@@ -72,6 +89,9 @@ ul li:before {
 
 ul li {
   text-indent: -0.5em;
+}
+
+ul.display li {
   margin-bottom: 1.75em;
 }
 
@@ -97,4 +117,15 @@ ul li {
 
 img.face {
   width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .cv .pure-g-r > .pure-u,
+  .cv .pure-g-r > [class *= "pure-u-"] {
+    width: 100%;
+  }
+
+  .cv h3 {
+    margin-top: 2em;
+  }
 }
